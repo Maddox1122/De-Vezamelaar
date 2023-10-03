@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap");
+.Timeless-Opulence {
+  color: #242582;
+}
+.Timeless-Opulence {
+  color: #553d67;
+}
+.Timeless-Opulence {
+  color: #f64c72;
+}
+.Timeless-Opulence {
+  color: #99738e;
+}
+.Timeless-Opulence {
+  color: #2f2fa2;
+}
+
+body {
+  font-family: "Mooli", sans-serif;
+  background: #221f1f;
+  color: white;
+}
+
+svg {
+  width: 98.7vw;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-section > div > h1 {
+  color: #ffffff;
+  font-family: "Croissant One", cursive;
+  font-size: 50px;
+}
+
+.intro-verhaal {
+  color: #ffffff;
+  max-width: 750px;
+  margin-left: 5vw;
+  padding: 32px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: -0.5vw;
+  width: 450px;
+  height: 450px;
+  background-color: #f64c72;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: #41c6b2 1px 0px 10px 5px;
+}
+
+.circle-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 450px;
+  background-color: #553d67;
+  border-radius: 50%;
+  z-index: -2;
+  box-shadow: #a2d359 1px 0px 10px 5px;
+}
+
+.games-container {
+  display: grid;
+  place-items: center;
+}
+
+.games-container > div > img {
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.games-container > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mySlides {
+  display: none;
+  max-width: 400px;
+}
+
+.info-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 1s all ease;
+  font-family: "Croissant One", cursive;
+  background-color: #f64c72;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 8px;
+  box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-link:hover {
+  color: black;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 49vw);
+  place-items: center;
+  margin-top: 2.5vh;
+}
+
+.about-text > p {
+  max-width: 75%;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-text > h1 {
+  font-size: 32px;
+}
+
+.about-img {
+  max-width: 100%;
+}
+
+.about-img > img {
+  border-radius: 5%;
+  box-shadow: #ffffff 10px 8px 4px;
+}
+
+.circle-3 {
+  position: absolute;
+  bottom: -77vh;
+  left: 5vw;
+  width: 450px;
+  height: 450px;
+  background-color: #553d67;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: #a2d359 1px 0px 10px 5px;
+}
+
+.circle-4 {
+  position: absolute;
+  bottom: -77vh;
+  left: 25vw;
+  width: 450px;
+  height: 450px;
+  background-color: #f64c72;
+  border-radius: 50%;
+  z-index: -2;
+  box-shadow: #41c6b2 1px 0px 10px 5px;
+}
+
+.hr-svg-under {
+  width: 98.6vw;
+  margin: 0;
+  background: rgb(85, 61, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(85, 61, 103, 1) 0%,
+    rgba(246, 76, 114, 1) 100%
+  );
+  border: none;
+  height: 2vh;
+}

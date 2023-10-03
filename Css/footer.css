@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap");
+footer {
+  color: white;
+  padding: 30px 0;
+  margin-top: 5vh;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-section {
+  padding: 20px 0;
+}
+
+.footer-section h6 {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.copyright-section {
+  padding: 10px 0;
+}
+
+.socials {
+  margin-bottom: 2vh;
+}
