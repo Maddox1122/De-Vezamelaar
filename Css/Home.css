@@ -38,6 +38,7 @@ svg {
   color: #ffffff;
   font-family: "Croissant One", cursive;
   font-size: 50px;
+  text-align: center;
 }
 
 .intro-verhaal {
@@ -151,41 +152,4 @@ svg {
 .about-img > img {
   border-radius: 5%;
   box-shadow: #ffffff 10px 8px 4px;
-}
-
-.circle-3 {
-  position: absolute;
-  bottom: -77vh;
-  left: 5vw;
-  width: 450px;
-  height: 450px;
-  background-color: #553d67;
-  border-radius: 50%;
-  z-index: -1;
-  box-shadow: #a2d359 1px 0px 10px 5px;
-}
-
-.circle-4 {
-  position: absolute;
-  bottom: -77vh;
-  left: 25vw;
-  width: 450px;
-  height: 450px;
-  background-color: #f64c72;
-  border-radius: 50%;
-  z-index: -2;
-  box-shadow: #41c6b2 1px 0px 10px 5px;
-}
-
-.hr-svg-under {
-  width: 98.6vw;
-  margin: 0;
-  background: rgb(85, 61, 103);
-  background: linear-gradient(
-    90deg,
-    rgba(85, 61, 103, 1) 0%,
-    rgba(246, 76, 114, 1) 100%
-  );
-  border: none;
-  height: 2vh;
 }

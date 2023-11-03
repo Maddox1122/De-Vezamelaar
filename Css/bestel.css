@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap");
+.Timeless-Opulence {
+  color: #242582;
+}
+.Timeless-Opulence {
+  color: #553d67;
+}
+.Timeless-Opulence {
+  color: #f64c72;
+}
+.Timeless-Opulence {
+  color: #99738e;
+}
+.Timeless-Opulence {
+  color: #2f2fa2;
+}
+
+body {
+  font-family: "Mooli", sans-serif;
+  background: #221f1f;
+  color: white;
+  padding: 0;
+  margin: 0;
+  max-height: 99vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+svg {
+  width: 100vw;
+  padding: 0;
+}
+
+.product-section {
+  display: grid;
+  grid-template-columns: repeat(3, 32vw);
+  margin-top: 8.6vh;
+}
+
+.img-container > img {
+  max-width: 20vw;
+  border-radius: 5%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.beschrijving {
+  max-width: 25vw;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.title {
+  text-align: left;
+  font-size: 32px;
+}
+
+.eigenschappen {
+  font-size: 24px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5vh;
+}
+
+.form-container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-top: 1vh;
+  font-size: 20px;
+}
+
+.form-input {
+  padding: 12px;
+  width: 20vw;
+  border: black solid 1px;
+  border-radius: 10px;
+  margin-top: 0.5vh;
+  font-size: 16px;
+}
+
+.form-button {
+  margin-top: 1vh;
+  height: 4vh;
+  width: 5vw;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px;
+}

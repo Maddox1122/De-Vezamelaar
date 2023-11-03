@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap");
+.Timeless-Opulence {
+  color: #242582;
+}
+.Timeless-Opulence {
+  color: #553d67;
+}
+.Timeless-Opulence {
+  color: #f64c72;
+}
+.Timeless-Opulence {
+  color: #99738e;
+}
+.Timeless-Opulence {
+  color: #2f2fa2;
+}
+
+body {
+  font-family: "Mooli", sans-serif;
+  background: #221f1f;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-form {
+  background-color: rgba(17, 25, 40, 0.25);
+  padding: 38px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+}
+
+.contact-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #553d67;
+  color: rgba(255, 255, 255, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: 1px solid #f64c72;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  transform: scale(1.125);
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px #f64c72);
+  transition: all 0.3s ease;
+}
